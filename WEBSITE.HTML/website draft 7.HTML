@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shri Shyam Impex - Adhesive Paper & Plastic Importer</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7fb;
+      color: #222;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    header {
+      background-color: #fff;
+      color: #004080;
+      padding: 40px 20px 20px 20px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .logo {
+      width: 170px;
+      margin: 0 auto 15px auto;
+      display: block;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4em;
+      letter-spacing: 1px;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.1em;
+      margin-top: 6px;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+    nav {
+      background-color: #ebf2fa;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: center;
+      border-bottom: 2px solid #dde4ec;
+    }
+    nav a {
+      color: #004080;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1.04em;
+      transition: background-color 0.3s ease;
+      border-bottom: 3px solid transparent;
+    }
+    nav a:hover, nav a.active {
+      background-color: #cce3ff;
+      border-bottom: 3px solid #ff9800;
+    }
+    main {
+      max-width: 930px;
+      margin: 40px auto 60px auto;
+      padding: 0 24px;
+    }
+    section {
+      margin-bottom: 55px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+      padding: 28px 22px;
+    }
+    section h2 {
+      color: #004080;
+      border-left: 6px solid #ff9800;
+      padding-left: 14px;
+      font-size: 2em;
+      margin-bottom: 18px;
+      margin-top: 0;
+    }
+    section p {
+      line-height: 1.65;
+      font-size: 1.13em;
+    }
+    .photos-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 18px;
+      margin: 13px 0 22px 0;
+      justify-content: center;
+    }
+    .photos-row img {
+      border-radius: 7px;
+      max-width: 210px;
+      max-height: 140px;
+      width: auto;
+      height: auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+      background: #eee;
+      object-fit: cover;
+    }
+    ul.products {
+      list-style-type: disc;
+      padding-left: 35px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    ul.products li {
+      margin-bottom: 10px;
+    }
+    .contact-info p {
+      font-size: 1.12em;
+      margin: 8px 0;
+    }
+    .contact-info a {
+      color: #004080;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .contact-form {
+      margin-top: 30px;
+      padding-top: 15px;
+      border-top: 1.5px solid #dde4ec;
+    }
+    .contact-form label {
+      display: block;
+      margin-top: 12px;
+      margin-bottom: 6px;
+      font-weight: 500;
+      color: #003366;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 96%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: 1.5px solid #bbb;
+      border-radius: 6px;
+      font-size: 1em;
+      background: #f8fafc;
+      resize: vertical;
+    }
+    .contact-form button {
+      background: #004080;
+      color: #fff;
+      border: none;
+      padding: 10px 28px;
+      font-size: 1em;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      margin-bottom: 8px;
+      transition: background 0.3s;
+    }
+    .contact-form button:hover {
+      background: #ff9800;
+      color: #004080;
+    }
+    .form-success {
+      color: green;
+      font-weight: 600;
+      margin-top: 12px;
+      display: none;
+    }
+    .form-error {
+      color: red;
+      font-weight: 600;
+      margin-top: 12px;
+      display: none;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 0.95em;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: 30px;
+    }
+    @media only screen and (max-width: 650px) {
+      main {
+        margin: 18px auto 30px auto;
+        padding: 0 7px;
+      }
+      section {
+        padding: 17px 7px;
+      }
+      section h2 {
+        font-size: 1.3em;
+        padding-left: 9px;
+      }
+      .photos-row {
+        gap: 7px;
+      }
+      .photos-row img {
+        max-width: 97vw;
+        max-height: 104px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="LOGO.jpg" alt="Shri Shyam Impex Logo" class="logo" />
+    <h1>Shri Shyam Impex</h1>
+    <p>Your Trusted Importer of Adhesive Paper & Plastic</p>
+  </header>
+  <nav>
+    <a href="#about" class="active">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Shri Shyam Impex, headed by Mehul Jindal, is a leading importer of adhesive paper and plastic materials across Delhi. We specialize in high-quality sheets and paper varieties suited for packaging, labeling, printing, and industrial applications. Our commitment is to deliver excellence and prompt service to our valued customers.</p>
+      <p>With a strong network of suppliers, we ensure a diverse inventory and cater to custom requirements and bulk orders.</p>
+    </section>
+    <section id="products">
+      <h2>Our Products</h2>
+      <ul class="products">
+        <li>Self Adhesive Paper</li>
+        <li>Chromo Paper</li>
+        <li>Foil Paper</li>
+        <li>Printing Paper</li>
+        <li>Chromo Gum Sheet</li>
+        <li>Silicone Coated Paper</li>
+        <li>Plastic Sheets</li>
+      </ul>
+      <p>Contact us for tailored orders and specialized industrial solutions.</p>
+    </section>
+    <section id="gallery">
+      <h2>Stock Gallery</h2>
+      <div class="photos-row">
+        <img src="IMG-20251110-WA0004.jpg" alt="Stock Image 4" />
+        <img src="IMG-20251110-WA0014.jpg" alt="Stock Image 5" />
+        <img src="IMG-20251105-WA0012.jpg" alt="Stock Image 6" />
+        <img src="IMG-20251107-WA0008.jpg" alt="Stock Image 7" />
+        <img src="IMG-20251107-WA0010.jpg" alt="Stock Image 8" />
+      </div>
+      <p>Our warehouse holds a variety of adhesive paper and plastic rolls to meet your business demands efficiently.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <p><strong>Name:</strong> Mehul Jindal</p>
+        <p><strong>Mobile:</strong> +91 7838443890, +91 9811969199</p>
+        <p><strong>Email:</strong> <a href="mailto:mehuljindal28@gmail.com">mehuljindal28@gmail.com</a></p>
+        <p><strong>Address:</strong> 550A, A-1, Shop No.- 2, GT Road Mansarover Park, Shahdara, Delhi 110032</p>
+      </div>
+      <!-- UPDATED CONTACT FORM BELOW -->
+      <form class="contact-form" action="https://formspree.io/f/mpwkabqw" method="POST">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="3" placeholder="Type your message here" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Shri Shyam Impex. All Rights Reserved.
+  </footer>
+  <script>
+    // Highlight active nav link on scroll
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('nav a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 80;
+        if (pageYOffset >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
